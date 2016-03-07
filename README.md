@@ -1,5 +1,5 @@
 # openMMM
-openMorrowind Mod Manager. A cli tool to for linux to add mods to openMW
+openMorrowind Mod Manager. A cli tool for linux to add mods to openMW
 
 ## Usage
 
