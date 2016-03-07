@@ -26,7 +26,6 @@ openMorrowind Mod Manager. A cli tool for linux to add mods to openMW
 
 * Start openMW
 
-    openmw-launcher
-
+  ```openmw-launcher```
 
 Your mods should now appear in the data tab of the launcher (if esp/esm files) or should show up in game (if textures)
