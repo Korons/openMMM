@@ -18,16 +18,27 @@ openMorrowind Mod Manager. A cli tool for linux to add mods to openMW
 
     From the [openMW wiki](https://wiki.openmw.org/index.php?title=Mod_installation)
 
+* Make sure the openmw-launcher is not running
+
+
 * run openmmm.py and give it the path to the mod you want to install
 
 ```openmmm.py yourModFolder```
 
   This will copy the mod folder to ```~/MWmods/``` and add the needed data="PathToYourMod" in ```~/.config/openmw/openmw.cfg```. It will also make a backup of the config file in ~/.config/openmw/
 
-* Start openMW by running the command  ```openmw-launcher```
+* Start openMW by running
+
+```
+openmw-launcher
+```
 
 
 
 Your mods should now appear in the data tab of the launcher (if esp/esm files) or should show up in game (if textures)
+
+## Issues
+
+If you add mods when the openmw-launcher is running the mods will be removed from the config file when the openmw-launcher is closed
 
 This project is not affiliated with openMW
