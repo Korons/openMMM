@@ -1,10 +1,15 @@
-#/bin/python3
+#!/usr/bin/python3
 
 import sys
 import os
 import shutil
+if len(sys.argv) == 1:
+    help_message = '{0} YourModFolder'.format(sys.argv[0])
+    print (help_message)
+    sys.exit()
 
 home = os.getenv("HOME")
+
 mod_name = sys.argv[1]
 
 openmw_config_path = home + '/.config/openmw/'
