@@ -7,7 +7,7 @@ openMorrowind Mod Manager. A cli tool for linux to add mods to openMW
 
 ```sudo cp openmmm.py /usr/bin```
 
-* cd to where you uncompressed mod folders are stored
+* cd to where your uncompressed mod folders are stored
 
 ```cd /some/path```
 
