@@ -11,12 +11,6 @@ parser.add_argument("-a", help="Mod to add",)
 parser.add_argument("-l", help="List mods", action="store_true")
 args = parser.parse_args()
 
-
-# if len(sys.argv) == 1:
-#     help_message = '{0} YourModFolder'.format(sys.argv[0])
-#     print (help_message)
-#     sys.exit()
-
 home = os.getenv("HOME")
 
 openmw_config_path = home + '/.config/openmw/'
