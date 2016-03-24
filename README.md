@@ -14,6 +14,10 @@ cd to where you uncompressed mod folders are stored
 
 ```cd /some/path```
 
+Make a folder name MWmods
+
+```mkdir ~/MWmods```
+
 Run openmmm.py with the -a flag and give it the path to the mod you want to install
 
 ```openmmm.py -a yourModFolder```
